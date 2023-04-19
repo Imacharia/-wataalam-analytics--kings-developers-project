@@ -50,7 +50,7 @@ def clean_data(df):
 
     
     # Drop original date column
-    #df.drop(columns=['date'], axis=1, inplace=True)
+    df.drop(columns=['date'], axis=1, inplace=True)
     
     # Convert year_built to age
     df['age'] = 2015 - df.yr_built
