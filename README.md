@@ -92,7 +92,7 @@ This project follows the OCEMiN Data Science framework for data analysis
 
 Here, we can see that the larger the number of bedrooms, the higher the prices as well. For average and low-priced houses, there isn't much of an increase but more of constant with a slight increase in prices with the number of bedrooms.
 
-*How do different Priced houses relate with the number of bathrooms?
+*How do different Priced houses relate with the number of bathrooms?*
 
 ![image](https://user-images.githubusercontent.com/54464999/233362496-4928aacb-62a3-489b-8359-3437846fec67.png)
 
@@ -100,7 +100,7 @@ From the Histogram we observed that the majority of median and high-end properti
 
 The histograms suggest that the number of bathrooms is positively correlated with the price of properties. However, we need to perform statistical analysis to confirm this relationship and identify the strength of the relationship.
 
-*How do different-priced houses relate with the seasons?
+*How do different-priced houses relate with the seasons?*
 
 ![image](https://user-images.githubusercontent.com/54464999/233364876-a5520016-e52b-4a26-80a7-51c1558bfa9c.png)
 
@@ -124,7 +124,7 @@ Lastly, the winter season of December, January, and February had the lowest tota
 
 Overall, it is important to note that this conclusion is based solely on the provided data and may not be reflective of larger trends in the housing market. Additionally, there may be some inaccuracies in the data such as missing or incomplete records, which could affect the accuracy of these findings.
 
-*How does Location affect the Sale Price of a house?
+*How does Location affect the Sale Price of a house?*
 
 ![image](https://user-images.githubusercontent.com/54464999/233366107-2d22859f-d046-4918-8ec3-d64f09e4a146.png)
 
@@ -136,7 +136,7 @@ Whilst we could define quadrants using the latitude and longitude, let us seek t
 
 Map of house sales To visualise house sales on a map, we will use Bokeh and the built-in map tile from Carto DB. Note that Bokeh requires Mercator coordinates so we will need to convert our latitude and longitude values.
 
-*Does the Presence of a waterfront feature affect its price?
+*Does the Presence of a waterfront feature affect its price?*
 
 From the maps, it is apparent that being on the waterfront is highly sought after and many of the most expensive houses in our dataset have this feature. We have been provided with a waterfront feature, which characterises houses which have a view of a waterfront. Let us investigate how this feature relates to price by using a boxplot.
 
