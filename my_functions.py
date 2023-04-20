@@ -86,6 +86,23 @@ def remove_outliers(df):
         
     return df       
 
+# Define one-hot encoding function
+def one_hot_encode(df, catcols):
+    '''Returns df with dummy vars and drops original column'''
+    
+    # Create DataFrame with above columns
+    dfonehot = df[catcols].astype('category')
+    
+    # Get dummy variables and drop first one to not create dependency
+    dfonehot = pd.get_dummies(dfonehot, drop_first = True)
+    
+    # Recreate DataFrame with one-hot encoded variables
+    df = pd.concat([df,dfonehot], axis=1)
+    
+    # Drop columns where we have done one-hot encoding
+    df = df.drop(catcols, axis = 1)
+        
+    return df
 
 # Define function to switch from lat/long to mercator coordinates
 def x_coord(x, y):
