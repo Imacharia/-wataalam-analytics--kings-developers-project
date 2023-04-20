@@ -45,7 +45,9 @@ The business problem is to provide guidance to Kings Wajenzi Developers, a prosp
 ### Objectives 
 
 1. Does the time of the year affect the price of an house? If yes, which seasons/Months are most profitable?
+
 2. Does Location affect prices? If yes, which locations within King county attract highest price of houses?
+
 3. Which features/Attributes have the highest impact on sales price of houses/properties? Which features should the developer focus on when developing their upcoming projects in King County?
 
 ### Approach
@@ -53,9 +55,13 @@ The business problem is to provide guidance to Kings Wajenzi Developers, a prosp
 This project follows the OCEMiN Data Science framework for data analysis
 
 1.Obtain/import data
+
 2.Clean/ Scrub data
+
 3.Explore data/EDA
+
 4.Model/Develop the predictive Model
+
 5.Interpret Data
 
 
