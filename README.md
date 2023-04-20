@@ -147,6 +147,7 @@ From the maps, it is apparent that being on the waterfront is highly sought afte
 The objective of modeling is to build a model that has the ability to make accurate predictions of the target variable for new data, indicating that it can generalize well. The modeling procedure encompasses the selection of suitable algorithms, feature engineering, fine-tuning of hyperparameters, and evaluation of the model's performance.
 
 *Test for Linearity
+
 Based on the data analysis, it appears that most of the variables have a linear relationship to the price, and their relationship appears to be homoscedastic. However, there are some variables, including sqft_lot, floors, condition, latitude, longitude and sqft_lot15, that do not seem to have a linear relationship with price.
 
 ![image](https://user-images.githubusercontent.com/54464999/233372945-c1a7dc54-c9b8-40d6-a69b-32b0322f157a.png)
