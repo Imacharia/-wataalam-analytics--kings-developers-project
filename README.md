@@ -51,7 +51,6 @@ The business problem is to provide guidance to Kings Wajenzi Developers, a prosp
 3. To determine which features/attributes have the highest impact on the sales price of houses/properties in King County and identify the features that developers should focus on when developing upcoming projects in the area.
 
 ### Guiding Questions
-What to answer
 
 1. Does the time of the year affect the price of an house? If yes, which seasons/Months are most profitable?
 2. Does Location affect prices? If yes, which locations within King county attract highest price of houses?
