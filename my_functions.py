@@ -12,7 +12,7 @@ def clean_data(df):
     # We drop Id column, sqft_living15, sqft_lot15 columns because Id column is not a relevant column for house price predictions.
     # sqft_living15, sqft_lot15 these two columns are not relevant in the model that we intent to develop (multiple linear regression
     # model since they are better suited for KNN models)
-    col_to_drop = ["id", "sqft_living15","sqft_lot15"]
+    col_to_drop = ["id"]
     df.drop(col_to_drop, axis =1, inplace = True)
     
     # Fill missing values for waterfront
@@ -43,10 +43,12 @@ def clean_data(df):
     df['condition'] = df['view'].replace({'Poor': 1, 'Fair': 2, 'Average': 3, 'Good': 4, 'Very Good': 5})
     
     # Convert 'view', 'waterfront', 'grade' and 'condition' columns to apppropriate datatype
-    df['view'] = df['view'].fillna(0).astype('int64')
-    df['waterfront'] = df['waterfront'].astype('int64')
-    df['grade'] = df['view'].fillna(0).astype('int64')
-    df['condition'] = df['condition'].astype('int64')
+    df['view'] = df['view'].fillna(0).astype('category')
+    df['waterfront'] = df['waterfront'].astype('category')
+    df['grade'] = df['view'].fillna(0).astype('category')
+    df['condition'] = df['condition'].astype('category')
+    df['zipcode'] = df['zipcode'].astype('category')
+    
 
     
     # Drop original date column
