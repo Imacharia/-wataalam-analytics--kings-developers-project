@@ -187,3 +187,17 @@ def calculate_rmse(y_true, y_pred):
     mse = mean_squared_error(y_true, y_pred)
     rmse = np.sqrt(mse)
     return rmse
+
+
+def plot_partial_residuals_all(results, predictor_cols):
+    fig, axs = plt.subplots(nrows=2, ncols=4, figsize=(16, 8), sharey=True)
+    axs = axs.flatten()
+
+    for i, col in enumerate(predictor_cols):
+        plot_partial_residuals(results, focus_exog=col, ax=axs[i])
+        axs[i].set_xlabel('Predictor')
+        axs[i].set_ylabel('Partial Residual')
+        axs[i].set_title(col)
+
+    plt.tight_layout()
+    plt.show()
