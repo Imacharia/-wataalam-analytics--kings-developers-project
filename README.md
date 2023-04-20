@@ -2,7 +2,7 @@ Phase 2 Housing Project.
 
 
 # $Authors$ 
-| Ian Macharia | Pauline Njeri | Dennis Mwanzia | Samuel Igecha | Pamela Awino | 
+( Ian Macharia , Pauline Njeri , Dennis Mwanzia , Samuel Igecha , Pamela Awino )
 
 # Project Introduction & Overview.
 
@@ -67,16 +67,25 @@ This project follows the OCEMiN Data Science framework for data analysis
 
 # Results
 
-*Checking for outliers
+### Checking for outliers
 
 ![image](https://user-images.githubusercontent.com/54464999/233315076-a4228a9f-6d21-4e70-a423-68aafc7cb748.png)
 
 ![image](https://user-images.githubusercontent.com/54464999/233315611-2d92ffc7-32d5-4523-83e2-a0a0ba8fb71d.png)
 
 
-*Explaratory Data Analysis
+### Explaratory Data Analysis
 
 ![image](https://user-images.githubusercontent.com/54464999/233314417-f544d713-d688-4b6b-a7e9-93e603e5c373.png)
+
+*How do different Priced houses relate with the number of bedrooms?
+
+![image](https://user-images.githubusercontent.com/54464999/233318619-baf7924b-9661-4229-a988-748f54cebdf1.png)
+
+*How do different Priced houses relate with the number of bathrooms?
+
+![image](https://user-images.githubusercontent.com/54464999/233319184-998bdaad-99e1-4c2c-a7b9-431b7b15124f.png)
+
 
 
 
