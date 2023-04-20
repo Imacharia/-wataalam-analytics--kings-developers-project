@@ -48,13 +48,20 @@ The business problem is to provide guidance to Kings Wajenzi Developers, a prosp
 
 2. To investigate whether location affects house prices in King County and identify the areas that attract the highest prices.
 
-3.To determine which features/attributes have the highest impact on the sales price of houses/properties in King County and identify the features that developers should focus on when developing upcoming projects in the area.
+3. To determine which features/attributes have the highest impact on the sales price of houses/properties in King County and identify the features that developers should focus on when developing upcoming projects in the area.
+
+### Guiding Questions
+What to answer
+
+1. Does the time of the year affect the price of an house? If yes, which seasons/Months are most profitable?
+2. Does Location affect prices? If yes, which locations within King county attract highest price of houses?
+3. Which features/Attributes have the highest impact on sales price of houses/properties? Which features should the developer focus on when developing their upcoming projects in King County
+
 
 ### Approach
 
 This project follows the OCEMiN Data Science framework for data analysis
 
-This project follows the OCEMiN Data Science framework for data analysis
 1. Obtain/import data
 * We will import dataimport data from King County House Data provided as csv, using Pandas library.
 2. Clean/ Scrub data
