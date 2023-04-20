@@ -40,29 +40,31 @@ King County House Data: a dataset that we were provided at the onset of the proj
 
 # Business Problem
 
-The business problem is to provide guidance to Kings Wajenzi Developers, a prospective real estate developer in King County, on the most profitable types of properties to target in the current market. The guidance will include recommendations on optimal locations, features, and time of year when homeowners are most likely to purchase properties. Our objective as Wataalam Analytics Advisors is to analyze house sales data in King County and leverage the insights generated to guide the developer in selecting the most profitable properties to develop and maximize their profits. With King County's population on the rise and income stabilizing after the COVID-19 pandemic, demand for new homes in the area is at an all-time high.
+The business problem is to provide guidance to Kings Wajenzi Developers, a prospective real estate developer in King County, on the most profitable types of properties to target in the current market. The guidance will include recommendations on optimal locations to develop properties, features most desired by customers and have the greatest impact on prices of properties, and season of year when homeowners are most likely to purchase properties. Our objective as Wataalamu Analytics Advisors is to analyze house sales data in King County which was collected between May 2014 and May 2015 and leverage the insights generated to guide the developer in selecting the most profitable properties to develop and maximize their profits. With King County's population on the rise and income stabilizing after the COVID-19 pandemic, demand for new homes in the area is at an all-time high.
 
 ### Objectives 
 
-1. Does the time of the year affect the price of an house? If yes, which seasons/Months are most profitable?
+1. To determine whether the time of year affects the price of a house and identify the most profitable seasons/months.
 
-2. Does Location affect prices? If yes, which locations within King county attract highest price of houses?
+2. To investigate whether location affects house prices in King County and identify the areas that attract the highest prices.
 
-3. Which features/Attributes have the highest impact on sales price of houses/properties? Which features should the developer focus on when developing their upcoming projects in King County?
+3.To determine which features/attributes have the highest impact on the sales price of houses/properties in King County and identify the features that developers should focus on when developing upcoming projects in the area.
 
 ### Approach
 
 This project follows the OCEMiN Data Science framework for data analysis
 
-1.Obtain/import data
-
-2.Clean/ Scrub data
-
-3.Explore data/EDA
-
-4.Model/Develop the predictive Model
-
-5.Interpret Data
+This project follows the OCEMiN Data Science framework for data analysis
+1. Obtain/import data
+* We will import dataimport data from King County House Data provided as csv, using Pandas library.
+2. Clean/ Scrub data
+* We will employ several data cleaning methods to modify and prepare the dataset for analysis.
+3. Explore data/EDA
+* Analyzing and visualizing the cleaned data to gain insights, identify patterns and relationships, and formulate hypotheses.
+4. Model/Develop the predictive Model
+* Develop and evaluate predictive models using the data.
+5. Interpret Data
+* Draw conclusions and make decisions based on the results of the analysis.
 
 
 # Results
