@@ -86,7 +86,7 @@ This project follows the OCEMiN Data Science framework for data analysis
 
 ![image](https://user-images.githubusercontent.com/54464999/233314417-f544d713-d688-4b6b-a7e9-93e603e5c373.png)
 
-*How do different Priced houses relate with the number of bedrooms?
+*How do different Priced houses relate with the number of bedrooms?*
 
 ![image](https://user-images.githubusercontent.com/54464999/233318619-baf7924b-9661-4229-a988-748f54cebdf1.png)
 
