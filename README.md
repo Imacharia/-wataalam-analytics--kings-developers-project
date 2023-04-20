@@ -74,7 +74,7 @@ This project follows the OCEMiN Data Science framework for data analysis
 ![image](https://user-images.githubusercontent.com/54464999/233315611-2d92ffc7-32d5-4523-83e2-a0a0ba8fb71d.png)
 
 
-*Explaratory Analysis
+*Explaratory Data Analysis
 
 ![image](https://user-images.githubusercontent.com/54464999/233314417-f544d713-d688-4b6b-a7e9-93e603e5c373.png)
 
