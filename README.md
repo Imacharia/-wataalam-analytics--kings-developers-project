@@ -92,7 +92,10 @@ This project follows the OCEMiN Data Science framework for data analysis
 
 *How do different Priced houses relate with the number of bathrooms?
 
-![image](https://user-images.githubusercontent.com/54464999/233319184-998bdaad-99e1-4c2c-a7b9-431b7b15124f.png)
+![image](https://user-images.githubusercontent.com/54464999/233362496-4928aacb-62a3-489b-8359-3437846fec67.png)
+
+
+
 
 
 
