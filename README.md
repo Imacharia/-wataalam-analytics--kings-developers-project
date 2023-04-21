@@ -1,4 +1,4 @@
-# PHASE 2 HOUSING PROJECT.
+# King Wajenzi Developers Proposal
 
 
 # $Authors$ 
