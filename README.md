@@ -1,8 +1,9 @@
 # King Wajenzi Developers Proposal
 
 
+![My Image](Images/big-city.jpg)
 # $Authors$ 
-( Ian Macharia , Pauline Njeri , Dennis Mwanzia , Samuel Igecha , Pamela Awino )
+( Ian Macharia , Pauline Ndung'u , Dennis Mwanzia , Samuel Igecha , Pamela Awino )
 
 # Project Introduction & Overview.
 
@@ -158,7 +159,7 @@ Based on the data analysis, it appears that most of the variables have a linear 
 
 # Baseline Model Generation
 
-![image](https://user-images.githubusercontent.com/54464999/233373905-c2309471-25ee-4587-9c6a-8c0df9cade65.png)
+![image](Images/multi-collinearity.png)
 
 There appears to be a fairly clear linear relationship between the Square footage of living space feature and price of a home in King County. We can use this to make a baseline model.
 
