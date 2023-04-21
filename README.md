@@ -155,11 +155,7 @@ Based on the data analysis, it appears that most of the variables have a linear 
 
 *Multi-collinearity
 
-![image](https://user-images.githubusercontent.com/54464999/233373186-3329ddec-ef1f-4a12-8638-9d7cdecb433b.png)
-
-# Baseline Model Generation
-
-![image](Images/multi-collinearity.png)
+![image](https://user-images.githubusercontent.com/54464999/233657045-0abdf259-974f-47e7-b331-9079c578b44b.png)
 
 There appears to be a fairly clear linear relationship between the Square footage of living space feature and price of a home in King County. We can use this to make a baseline model.
 
@@ -181,4 +177,29 @@ We can make the following observations from the results:
 
 ![image](https://user-images.githubusercontent.com/54464999/233374674-1e2ac731-1cbe-4a2e-bdc7-0239b3e99742.png)
 
+# Recommendations and conclusion
+### Objective 1: Season of the year.
+Sales of properties is highest in spring and lowest in winter. Property developers such as our client Kings Wajenzi developers should target to develop properties that will be market in the season of spring and Summer.
 
+### Objective 2: Location
+Location within King County is also a crucial factor, with significant price disparities among zip codes. The location with zip code 98112 has the most priced properties with 98001 having the least priced properties. We suggest that developers targeting high end clients should develop homes in zip codes 98112 , 98109 and 98105. Those targeting low income earners should target to develop properties in zip codes 98001, 98106 and 98108. Those targeting middle income earners should target other zip codes.
+
+### Objective 3: House features
+The most important predictor of house price is view. We observed that house prices with waterfront view are the most desirable. Houses that have a waterfront view have median price that is almost twice as those that dont have waterfront view. We suggest that developers target to develop homes in front of water bodies such as lakes and rivers as these will fetch highest prices.
+
+### Bedrooms
+Number of bedrooms is the second most important predictor of house prices. Properties with higher number of bedrooms fetch high prices and hence developers should target high number of bedrooms where they wish to fetch high price for properties. However, incremeament beyond 6 bedrooms does not guarantee highest prices. The optimal number of bedrooms is 5 bedroom houses which fetch highest prices.
+
+### Bathrooms
+Number of bathrooms is not an important predictor of houses. Both high and medium priced properties have an optimal number of bathrooms which is 2.5. Low priced properties have 1 bathroom as the optimal. Therefore, developers should ensure high and medium priced properties have an optimum of 2.5 bathrooms.
+
+### Grade
+The median house price increases with grade, suggesting a positive correlation. We believe that grade is a reliable indicator of price, so we recommend focusing on homes with a grade of 10 or higher.
+
+### Square Footage and Condition
+Square footage and the condition of the property are also significant factors that affect the price of a house and should be considered by developers when developing their properties.
+
+### Further Analysis and Conclusion
+Our model had shortcomings initially as it only explained less than 50% but after improvements, it was able to predict almost 100% of variations in the response variable. This is because of proper data understanding, cleanup and fine tuning it. However, to gain new insights, we can consider additional factors such proximity to the capital city of Washington State, the income per zip code, presence of schools, hotels, commuter trains, and entertainment facilities. Longer time span should also be considered as the data used here was for 1 year only.
+
+##For More Information See the full analysis in the [Jupyter Notebook](https://github.com/Imacharia/wataalam-analytics--kings-developers-project/blob/main/Final%20Notebook.ipynb) or review this [presentation](https://github.com/Imacharia/wataalam-analytics--kings-developers-project/blob/main/presentation.pdf)
