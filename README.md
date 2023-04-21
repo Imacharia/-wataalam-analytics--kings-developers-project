@@ -164,15 +164,15 @@ There appears to be a fairly clear linear relationship between the Square footag
 
 ### Baseline Model results
 Looking at our summary above, our regression line is
-𝑃𝑟𝑖𝑐𝑒= 33,399 + 239 * sqft_living
+𝑃𝑟𝑖𝑐𝑒= 35,826 + 238 * sqft_living
 
 We can make the following observations from the results:
 
-*The model is statistically significant with a p-value below 0.05.
-*The model explains 40.1% of the variance in price, as indicated by the adjusted R-squared value.
-*Both the intercept (const) and the slope (sqft_living) coefficients are statistically significant with t-statistic p- values well below 0.05.
-*For a house with a living space of 1000 square feet, we would expect the price to be about $272399.
-*Generally speaking, as the living space of the house increases, so does the price of the house.
+* The model is statistically significant with a p-value below 0.05.
+* The model explains 40.1% of the variance in price, as indicated by the adjusted R-squared value.
+* Both the intercept (const) and the slope (sqft_living) coefficients are statistically significant with t-statistic p- values well below 0.05.
+* For a house with a living space of 1000 square feet, we would expect the price to be about $273,826.
+* Generally speaking, as the living space of the house increases, so does the price of the house.
 
 ### Baseline Model visualization
 
