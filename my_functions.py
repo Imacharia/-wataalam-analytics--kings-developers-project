@@ -73,10 +73,6 @@ def clean_data(df):
     
     return df.copy()
 
-# Function to Round bathrooms to nearest wholenumber 
-def round_bathrooms(df):
-    df['bathrooms'] = df['bathrooms'].map(lambda x: int(round(x,0)))
-    return df
 
 # Define function to remove outliers. i.e entries with z-score above 3 for specific columns
 def remove_outliers(df):
